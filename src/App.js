@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { BrowserRouter as Router } from 'react-router-dom';
 // import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
@@ -13,12 +14,14 @@ function App() {
 
   return (
     <Container fluid>
+      <Router basename={process.env.PUBLIC_URL}>
         <Home />
         <About />
         <Experience />
         <Images />
         <Contact />
         <Footer />
+      </Router>
     </Container>
   );
 }
