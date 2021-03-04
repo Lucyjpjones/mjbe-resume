@@ -1,0 +1,52 @@
+.contact-container {
+    width: 75%;
+    margin: auto;
+  }
+  
+  .field {
+      margin-bottom: 10px;
+    }
+    
+    .field label {
+      display: block;
+      font-size: 14px;
+      color: #9ba4b4;
+    }
+    
+    .field input, .field textarea {
+      display: block;
+      min-width: 100%;
+      line-height: 1.5;
+      font-size: 14px;
+      border: 1px solid #394867;
+      border-radius: 0px;
+    }
+  
+   .field textarea {
+      height: 15vh;
+   }
+  
+   .field select {
+    border: 1px solid #394867;
+    border-radius: 0px;
+    height: 24px;
+   }
+    
+    input[type="submit"] {
+      display: block;
+      padding: 10px 30px;
+      font-size: 18px;
+      background-color: #394867;
+      color: #fff;
+      border: none;
+      min-width: 100%;
+      border-radius: 0px;
+    }
+  
+    @media only screen and (max-width: 600px) {
+      .contact-container {
+        width: 90%;
+      }
+    }
+  
+    

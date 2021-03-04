@@ -1,0 +1,29 @@
+.card {
+    background-color: transparent;
+    border: none;
+    height: 360px;
+}
+
+.card-img-top {
+    width: 100px;
+    margin: auto;
+    height: 25%;
+    object-fit: contain;
+}
+
+.card-body {
+    background-color: #9ba4b41a;
+    margin-top: 15px;
+}
+
+.col-4 {
+    padding: 5px;
+}
+
+ul {
+    padding-inline-start: 20px;
+}
+
+li {
+    padding: 5px;
+}
