@@ -44,6 +44,7 @@ function NavMenu() {
                 </ul>
             </div>
         </nav>
+        <div className={isOpen ? 'overlay': ''}></div>
         </>
     )
 }
