@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import NavMenu from './components/NavMenu';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
+import Qualifications from './components/pages/Qualifications';
 import Experience from './components/pages/Experience';
 import Images from './components/pages/Images';
 import Contact from './components/pages/Contact';
@@ -18,6 +19,7 @@ function App() {
         <NavMenu />
         <Home />
         <About />
+        <Qualifications />
         <Experience />
         <Images />
         <Contact />

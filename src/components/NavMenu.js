@@ -27,6 +27,11 @@ function NavMenu() {
                         </a>
                     </li>
                     <li className='nav-item'>
+                    <a href='#work' className='nav-links' onClick={closeMobileMenu}>
+                            Experience
+                        </a>
+                    </li>
+                    <li className='nav-item'>
                         <a href='#images' className='nav-links' onClick={closeMobileMenu}>
                             Gallery
                         </a>

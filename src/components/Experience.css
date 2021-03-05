@@ -10,3 +10,47 @@
         font-size: 1.35rem;
     }
 }
+
+/* Timeline */
+
+.history {
+    margin: 3%;
+  }
+  
+  .timeline-item {
+    padding: 3rem 2rem 0rem 2rem;
+    position: relative;
+    border-left: 1px solid;
+  }
+  
+  .timeline-item h4 {
+    font-size: 16px;
+    margin-bottom: 0;
+    padding-top: 1rem;
+  }
+  
+  .timeline-item p {
+    margin: 0;
+    font-size: 14px;
+    text-transform: none;
+  }
+  
+  .timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    top: 3rem;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  
+  .timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.3rem;
+    position: absolute;
+    left: -6px;
+    border-radius: 50%;
+    content: "";
+    background: #394867;
+  }
