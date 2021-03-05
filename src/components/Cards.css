@@ -21,12 +21,12 @@
     padding: 5px;
 }
 
-ul {
-    padding-inline-start: 20px;
+.ul-experience {
+    padding-inline-start: 20px !important;
 }
 
 li {
-    padding: 5px;
+    line-height: 2;
 }
 
 @media only screen and (max-width: 600px) {

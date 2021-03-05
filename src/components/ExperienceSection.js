@@ -13,7 +13,7 @@ function ExperienceSection() {
     });
 
     return (
-        <Container>
+        <Container id="edu-container">
             <h3 className='underline--text'>Qualifications</h3>
             <Row>
                 <Col xs={11} md={4}>
@@ -49,7 +49,7 @@ function ExperienceSection() {
                         <Card.Body>
                         <Card.Title style={{fontSize:'1rem'}} >Addional Qualifications</Card.Title>
                         <Card.Text style={{fontSize:'.8rem'}}>
-                            <ul>
+                            <ul className='ul-experience' >
                                 <li>
                                     UKSCA
                                 </li>
