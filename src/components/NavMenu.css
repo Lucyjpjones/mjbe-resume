@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     font-size: 2rem;
-    position: sticky !important;
     top: 0;
     z-index: 999;
     padding: 0;
@@ -46,8 +45,8 @@
   }
 
   .nav-links:hover {
-    background-color: rgba(1, 7, 53, 1);
-    color: #fafafa;
+    background-color: #fafafa;
+    color: rgba(1, 7, 53, 1);
     border-radius: 0;
     text-decoration: none;
   }
@@ -63,8 +62,8 @@
   }
 
   .overlay {
+    background-color: rgba(1, 7, 53, 1) !important ;
     height: 100vh;
-    background-color: rgba(1, 7, 53, 1);
   }
 
   @media only screen and (max-width: 600px) {
@@ -72,7 +71,8 @@
       justify-content: initial;
     }
     
-    .nav-links, .nav-links-social {
+    .nav-links {
       padding: 0;
+      font-size: 1.3rem;
     }
   }

@@ -10,10 +10,10 @@ function NavMenu() {
 
     return (
         <>
-        <nav className="navbar">
+        <nav className='navbar'>
             <div className="navbar-container">
                 <div className='menu-icon'>
-                    <Hamburger toggled={isOpen} toggle={setOpen} duration={0.8} color="#9ba4b4" />
+                    <Hamburger toggled={isOpen} toggle={setOpen} duration={0.8} color="#fafafa" />
                 </div>
                 <ul className={isOpen ? 'nav-menu active' : 'nav-menu'} >
                 <li className='nav-item'>
@@ -28,7 +28,7 @@ function NavMenu() {
                     </li>
                     <li className='nav-item'>
                     <a href='#edu' className='nav-links' onClick={closeMobileMenu}>
-                            Edu & Qualifications
+                            Qualifications
                         </a>
                     </li>
                     <li className='nav-item'>
@@ -44,7 +44,7 @@ function NavMenu() {
                 </ul>
             </div>
         </nav>
-        <div className={isOpen ? 'overlay': ''}></div>
+        <div className={isOpen ? 'overlay' : ''}> </div>
         </>
     )
 }

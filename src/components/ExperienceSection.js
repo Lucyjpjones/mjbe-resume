@@ -14,7 +14,7 @@ function ExperienceSection() {
 
     return (
         <Container>
-            <h3 className='underline--text'>Education & Qualifications</h3>
+            <h3 className='underline--text'>Qualifications</h3>
             <Row>
                 <Col xs={11} md={4}>
                     <Card>

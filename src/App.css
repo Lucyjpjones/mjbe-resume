@@ -28,6 +28,7 @@
 
 .row {
   margin: 0;
+  justify-content: center;
 }
 
 .col-10 {
