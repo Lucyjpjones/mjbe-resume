@@ -1,6 +1,5 @@
 import React from 'react'
 import { Row, Col, Container, Card } from 'react-bootstrap';
-import ScrollToNextSection from './ScrollToNextSection'
 import '../App.css'
 import './About.css'
 import './Cards.css'
