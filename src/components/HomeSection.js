@@ -20,7 +20,6 @@ function HomeSection() {
                 backDelay={150}
             />
             <a target="_blank" rel="noreferrer" href={process.env.PUBLIC_URL + '/files/mjbe-resume.pdf'} className='btn-cv'>Get CV</a>
-            <ScrollToNextSection />
         </div>
     );
 }

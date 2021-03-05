@@ -32,8 +32,7 @@ function ContactForm() {
     }
   
     return (
-    <Container className="section" data-aos="zoom-in">
-          <div className='contact-container' >
+    <Container className='contact-container'>
             <h2 style={{'fontSize':'30px', 'marginBottom':10}} >Get in Touch</h2>
             <h3 style={{'fontSize':'16px', 'marginBottom':20}}>
                 Please fill out the form below to contact me via email.
@@ -65,7 +64,6 @@ function ContactForm() {
                 </div>
                 <input type="submit" value="Send Message" />
             </form>
-        </div>
         </Container>
     );
   }

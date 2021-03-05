@@ -44,6 +44,9 @@
     }
   
     @media only screen and (max-width: 600px) {
+      .container {
+        width: 90%;
+      }
       .contact-container {
         width: 90%;
       }

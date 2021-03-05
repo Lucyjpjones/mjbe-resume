@@ -1,9 +1,9 @@
-.section {
+/* .section {
     height: 100vh;
     justify-content: center;
     align-items: center;
     margin: auto;
-}
+} */
 
 /* .section {
     height: 100vh;
@@ -30,10 +30,15 @@ h3 {
 }
 
 .underline--text {
-    background-image: linear-gradient(120deg, #747E94 0%, #747E94 100%);
+    background-image: linear-gradient(120deg, #92b1ee 0%, #92b1ee 100%);
       background-repeat: no-repeat;
       background-size: 100% 0.2em;
       background-position: 0 88%;
       transition: background-size 0.25s ease-in;
       width: fit-content;
+      margin-bottom: 10%;
     }
+
+@media only screen and (max-width: 600px) {
+        
+}

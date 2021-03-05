@@ -49,4 +49,14 @@ h1, .typing-text {
     text-decoration: none;
   }
 
-
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 40px;
+    }
+    .typing-text {
+      font-size: 28px; 
+    }
+    .btn-cv {
+      font-size: 1.8rem;
+    }
+}

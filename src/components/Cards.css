@@ -1,7 +1,7 @@
 .card {
     background-color: transparent;
     border: none;
-    height: 360px;
+    height: 320px;
 }
 
 .card-img-top {
@@ -9,6 +9,7 @@
     margin: auto;
     height: 25%;
     object-fit: contain;
+    filter: grayscale(.8);
 }
 
 .card-body {
@@ -26,4 +27,14 @@ ul {
 
 li {
     padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        height: 300px;
+        margin-bottom: 5%;
+    }
+    .underline--text {
+        margin-bottom: 5%;
+    }
 }

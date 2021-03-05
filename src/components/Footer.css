@@ -1,5 +1,6 @@
 footer {
     background-color: #14274e;
+    padding: 3%;
 }
 
 .social-icons {
@@ -11,14 +12,29 @@ footer {
 }
 .social-icon-link {
     list-style: none;
-    padding: 5%;
+    padding: 2% 2.5%;
+    background-color: #fafafa;
+    border-radius: 50%;
 }
 
 .social-icon-link i {
-    color: #fafafa;
+    color: #14274e;
+    font-size: 1.4rem;
 }
 
-.social-icon-link i:hover {
-    color: #9ba4b4;
+.social-icon-link:hover {
     transform: scale(1.3)
 }
+
+ul {
+    padding-inline-start: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .social-icon-link i {
+        font-size: 1rem;
+    }
+    .social-icon-link {
+        padding: 1% 3%;
+    }
+  }

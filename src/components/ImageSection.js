@@ -14,8 +14,8 @@ function ImageSection() {
     });
 
     return (
-        <Container className="section">
-            <Row data-aos="zoom-in">
+        <Container>
+            <Row>
                 <Col xs={4}>
                     <img style={{width:'100%'}} src={process.env.PUBLIC_URL + '/images/img-1.jpeg'} alt='football'> 
                     </img>
