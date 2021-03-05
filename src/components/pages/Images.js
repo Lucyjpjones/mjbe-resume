@@ -21,33 +21,20 @@ function Image() {
         caption: "Boats (Jeshu John - designerspics.com)"
 },
 {
-    src: process.env.PUBLIC_URL + '/images/gallery-2.jpeg',
-    thumbnail: process.env.PUBLIC_URL + '/images/gallery-2.jpeg',
-    thumbnailWidth: 320,
-    thumbnailHeight: 213,
-    caption: "Boats (Jeshu John - designerspics.com)"
-},
-{
-    src: process.env.PUBLIC_URL + '/images/gallery-2.jpeg',
-    thumbnail: process.env.PUBLIC_URL + '/images/gallery-2.jpeg',
-    thumbnailWidth: 320,
-    thumbnailHeight: 213,
-    caption: "Boats (Jeshu John - designerspics.com)"
-},
-{
     src: process.env.PUBLIC_URL + '/images/gallery-4.jpg',
     thumbnail: process.env.PUBLIC_URL + '/images/gallery-4.jpg',
     thumbnailWidth: 320,
-    thumbnailHeight: 406,
+    thumbnailHeight: 333,
     caption: "Boats (Jeshu John - designerspics.com)"
 },
 {
     src: process.env.PUBLIC_URL + '/images/gallery-2.jpeg',
     thumbnail: process.env.PUBLIC_URL + '/images/gallery-2.jpeg',
     thumbnailWidth: 320,
-    thumbnailHeight: 213,
+    thumbnailHeight: 200,
     caption: "Boats (Jeshu John - designerspics.com)"
-}]
+},
+]
 
     return (
         <>

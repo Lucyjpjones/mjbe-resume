@@ -31,26 +31,6 @@ function ImageSection() {
                     <img style={{width:'100%'}} src={process.env.PUBLIC_URL + '/images/img-1.jpeg'} alt='football'> 
                     </img>
                 </Col>
-                <Col xs={4}>
-                    <img style={{width:'100%'}} src={process.env.PUBLIC_URL + '/images/img-1.jpeg'} alt='football'> 
-                        </img>
-                </Col>
-                <Col xs={4}>
-                    <img style={{width:'100%'}} src={process.env.PUBLIC_URL + '/images/img-1.jpeg'} alt='football'> 
-                        </img>
-                </Col>
-                <Col xs={4}>
-                    <img style={{width:'100%'}} src={process.env.PUBLIC_URL + '/images/img-1.jpeg'} alt='football'> 
-                    </img>
-                </Col>
-                <Col xs={4}>
-                    <img style={{width:'100%'}} src={process.env.PUBLIC_URL + '/images/img-1.jpeg'} alt='football'> 
-                        </img>
-                </Col>
-                <Col xs={4}>
-                    <img style={{width:'100%'}} src={process.env.PUBLIC_URL + '/images/img-1.jpeg'} alt='football'> 
-                        </img>
-                </Col>
             </Row>
         </Container>
     );

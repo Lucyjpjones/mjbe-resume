@@ -29,12 +29,10 @@
     line-height: 2;
 }
 
+.carousel-indicators > li {
+    background-color: rgba(1, 7, 53, 1);
+}
+
 @media only screen and (max-width: 600px) {
-    .card {
-        height: 300px;
-        margin-bottom: 5%;
-    }
-    .underline--text {
-        margin-bottom: 5%;
-    }
+
 }
