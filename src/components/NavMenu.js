@@ -16,11 +16,6 @@ function NavMenu() {
                     <Hamburger toggled={isOpen} toggle={setOpen} duration={0.8} color="#fafafa" />
                 </div>
                 <ul className={isOpen ? 'nav-menu active' : 'nav-menu'} >
-                <li className='nav-item'>
-                        <a href='/' className='nav-links' onClick={closeMobileMenu}>
-                            Home
-                        </a>
-                    </li>
                     <li className='nav-item'>
                         <a href='#about' className='nav-links' onClick={closeMobileMenu}>
                             About
