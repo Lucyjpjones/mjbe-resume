@@ -12,7 +12,7 @@
             rgba(1, 7, 53, 0.801)
           ),
         /* bottom, image */
-        url(/src/images/home-img.jpeg);
+        url(/src/images/ground.jpg);
         background-position: center;
 }
 
@@ -47,6 +47,25 @@ h1, .typing-text {
     background-color: #fafafa;
     color: rgba(1, 1, 63, 0.788);
     text-decoration: none;
+  }
+
+  /* Arrow */
+  .bounce {
+    -moz-animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s infinite;
+    animation: bounce 1s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
   }
 
   @media only screen and (max-width: 600px) {

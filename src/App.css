@@ -15,7 +15,8 @@
 
 .container-section {
   scroll-snap-align: start;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
 }
 
 .container {
