@@ -1,7 +1,7 @@
 .card {
     background-color: transparent;
     border: none;
-    height: 320px;
+    height: 350px;
 }
 
 .card-img-top {
@@ -23,10 +23,17 @@
 
 .ul-experience {
     padding-inline-start: 20px !important;
+    margin-top: .5rem;
+    margin-bottom: 0;
 }
 
 .ul-experience li {
-    line-height: 2;
+    margin-bottom: 0.2rem;
+}
+
+.ul-experience li p {
+    line-height: 1;
+    margin: 0;
 }
 
 .carousel-indicators > li {

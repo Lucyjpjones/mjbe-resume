@@ -23,13 +23,8 @@ function Footer() {
                         <i className='fab fa-twitter fa-2x'></i>
                      </a>
                 </li>
-                <li className='social-icon-link'>
-                    <a target="_blank" rel="noreferrer" href='t'>
-                        <i className='fas fa-phone-alt fa-2x'></i>
-                    </a>
-                </li> 
             </ul>
-            <p style={{color:'#9ba4b4', 'textAlign': 'center', 'marginTop': 5, 'marginBottom': 0, fontSize: 10}}>Copyright © 2021 Lucy J P Jones</p>
+            <p style={{color:'#9ba4b4', 'textAlign': 'center', 'marginTop': '2%', 'marginBottom': 0, fontSize: 10}}>Copyright © 2021 Lucy J P Jones</p>
         </footer>
     )
 }
