@@ -10,10 +10,9 @@ function ContactForm() {
         duration: 2000
     });
 
-    const [firstName, setFirstName] = useState("") 
-    const [lastName, setLastName] = useState("")
+    const [fullName, setFullName] = useState("") 
     const [email, setEmail] = useState("")
-    const [topic, setTopic] = useState("")
+    const [subject, setSubject] = useState("")
     const [message, setMessage] = useState("")
 
     function sendEmail(e) {
@@ -39,24 +38,16 @@ function ContactForm() {
             </h3>
             <form className="contact-form" onSubmit={sendEmail} >
                 <div className='field'>
-                    <label>First Name</label>
-                    <input value={firstName} onChange={e => setFirstName(e.target.value)} type="text" name="firstName" />
-                </div>
-                <div className='field'>
-                    <label>Last Name</label>
-                    <input value={lastName} onChange={e => setLastName(e.target.value)} type="text" name="lastName" />
+                    <label>Full Name</label>
+                    <input value={fullName} onChange={e => setFullName(e.target.value)} type="text" name="fullName" />
                 </div>
                 <div className='field'>
                     <label>Email</label>
                     <input value={email} onChange={e => setEmail(e.target.value)} type="email" name="email" />
                 </div>
                 <div className='field'>
-                    <select  value={topic} name='topic' onChange={e => setTopic(e.target.value)}>
-                        <option value='' disabled>-- Choose topic --</option>
-                        <option value='Option 1'></option>
-                        <option value='Option 2'>Project Request</option>
-                        <option value='Other'>Other</option>
-                    </select>
+                    <label>Subject</label>
+                    <input value={subject} onChange={e => setSubject(e.target.value)} type="text" name="subject" />
                 </div>
                 <div className='field'>
                     <label>Message</label>
