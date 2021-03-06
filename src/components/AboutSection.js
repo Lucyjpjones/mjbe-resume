@@ -3,13 +3,8 @@ import { Row, Col, Container } from 'react-bootstrap';
 import ScrollToNextSection from './ScrollToNextSection'
 import '../App.css'
 import './About.css'
-import AOS from 'aos';
 
 function AboutSection() {
-
-    AOS.init({
-        duration: 2000
-    });
 
     return (
         <Container>

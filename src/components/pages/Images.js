@@ -38,7 +38,7 @@ function Image() {
 
     return (
         <>
-            <div className='container-section' data-aos="zoom-in">
+            <div className='container-section' data-aos="slide-up" data-aos-duration='800'>
                 <Container>
                     <Gallery images={IMAGES}/>
                 </Container>

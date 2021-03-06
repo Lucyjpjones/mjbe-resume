@@ -1,11 +1,15 @@
 import React from 'react'
 import '../../App.css'
 import AboutSection from '../AboutSection'
+import AOS from 'aos';
 
-function Home() {
+function About() {
+
+    AOS.init();
+
     return (
         <>
-        <div className='container-section' data-aos="zoom-in">
+        <div className='container-section' data-aos="slide-up" data-aos-duration='800'>
             <AboutSection />
         </div>
         <div id="edu"></div>
@@ -13,4 +17,4 @@ function Home() {
     )
 }
 
-export default Home
+export default About

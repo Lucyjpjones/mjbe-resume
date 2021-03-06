@@ -1,6 +1,5 @@
 import React from 'react'
 import ITyped from 'react-ityped';
-import ScrollToNextSection from './ScrollToNextSection'
 import '../App.css'
 import './Home.css'
 

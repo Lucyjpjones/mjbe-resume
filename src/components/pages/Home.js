@@ -5,13 +5,9 @@ import HomeSection from '../HomeSection'
 
 function Home() {
 
-    AOS.init({
-        duration: 1500
-    });
-
     return (
         <>
-        <div className='container-section' data-aos="fade-in">
+        <div className='container-section'>
             <HomeSection />
         </div>
         <div id='about'></div>
