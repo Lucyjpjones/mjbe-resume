@@ -24,7 +24,7 @@ function Footer() {
                      </a>
                 </li>
             </ul>
-            <p style={{color:'#9ba4b4', 'textAlign': 'center', 'marginTop': '2%', 'marginBottom': 0, fontSize: 10}}>Copyright © 2021 Lucy J P Jones</p>
+            <p style={{color:'#9ba4b4', 'textAlign': 'center', 'marginTop': '2%', 'marginBottom': 0, fontSize: 10}}>Copyright © 2021 LucyJPJones</p>
         </footer>
     )
 }

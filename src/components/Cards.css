@@ -4,7 +4,12 @@
     height: 390px;
 }
 
-.card-img-top {
+.Ripple-parent {
+    width: 100px;
+    margin: auto;
+}
+
+.card img {
     width: 100px;
     margin: auto;
     height: 25%;
