@@ -1,19 +1,6 @@
-.card-body {
-    padding: 1rem;
-}
-.card-title, .card-text p {
-    margin-bottom: .2rem;
-}
-
-@media only screen and (max-width: 600px) {
-    h3 {
-        font-size: 1.35rem;
-    }
-}
-
 /* Timeline */
 
-.history {
+  .history {
     margin: 3%;
   }
   

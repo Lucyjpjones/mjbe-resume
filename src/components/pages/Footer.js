@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../App.css'
 import '../Footer.css'
-// import { animations } from 'react-animation'
 
 function Footer() {
     

@@ -4,7 +4,6 @@ import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBContainer, MDBRow, M
 import '../App.css'
 import './About.css'
 import './Cards.css'
-import './Experience.css'
 
 function QualificationSection() {
 

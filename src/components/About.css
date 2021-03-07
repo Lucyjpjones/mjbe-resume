@@ -1,20 +1,3 @@
-/* .section {
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-} */
-
-/* .section {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-    background-color: #f1f6f9;
-} */
-
 .profile-img {
     border-radius: 50%;
     width: 200px;
@@ -24,20 +7,6 @@
     box-shadow: 3px 3px 9px #888888;
     margin-bottom: 30px;
 }
-
-h3 {
-    margin: auto;
-}
-
-.underline--text {
-    background-image: linear-gradient(120deg, #9ba4b4 0%, #9ba4b4 100%);
-      background-repeat: no-repeat;
-      background-size: 100% 0.2em;
-      background-position: 0 88%;
-      transition: background-size 0.25s ease-in;
-      width: fit-content;
-      margin-bottom: 10%;
-    }
 
 @media only screen and (max-width: 600px) {
     .profile-img {

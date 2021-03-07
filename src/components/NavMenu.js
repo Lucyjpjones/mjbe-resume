@@ -1,6 +1,5 @@
 import Hamburger from 'hamburger-react';
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import './NavMenu.css';
 
 function NavMenu() {

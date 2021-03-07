@@ -20,7 +20,7 @@ function HomeSection() {
                 />
                 <a target="_blank" rel="noreferrer" href={process.env.PUBLIC_URL + '/files/mjbe-resume.pdf'} className='btn-cv'>Get CV</a>
                 <a href='#about' className='arrow'>
-                 <i className="fas fa-angle-down fa-3x bounce" style={{marginTop:'50px', color:'#fafafa'}}></i>
+                 <i className="fas fa-angle-down fa-3x bounce"></i>
                 </a>
             </div>
     );
