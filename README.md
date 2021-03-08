@@ -212,7 +212,7 @@ The <u>key priorities</u> for my user are as follows:
 
 | | Bug                                                  | Action                                           |
 |-----------|------------------------------------------------------|--------------------------------------------------|
-| [ ]       | 1 | 11  |
+| [X]       | Carousel not displaying correctly on window resize unless window is refreshed | Added setEffect code for WindowWidth resize to ensure carousel updated correctly each time a window changes, code used found [here](https://gist.github.com/gaearon/cb5add26336003ed8c0004c4ba820eae#file-usewindowwidth-js)  |
 | [ ]       | 2 | 22 |
 | [ ]       | 3 | 33 |
 

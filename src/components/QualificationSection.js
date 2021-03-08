@@ -4,8 +4,11 @@ import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBContainer, MDBRow, M
 import '../App.css'
 import './About.css'
 import './Cards.css'
+import useWindowWidth from './WindowWidth';
 
 function QualificationSection() {
+
+    useWindowWidth()
 
     const width = window.innerWidth;
     const breakpoint = 768;
@@ -15,7 +18,7 @@ function QualificationSection() {
     return (
         <MDBContainer id="edu-container">
             <h3 className='underline--text'>Qualifications</h3>
-            <MDBCarousel activeItem={1} length={lengthNumber} slide={true} showControls={false} showIndicators={indicatorValue} multiItem>
+            <MDBCarousel interval={6000} activeItem={1} length={lengthNumber} slide={true} showControls={false} showIndicators={indicatorValue} multiItem>
                 <MDBCarouselInner>
                     <MDBRow>
                         <MDBCarouselItem itemId="1">
