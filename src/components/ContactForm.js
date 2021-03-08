@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Container } from 'react-bootstrap';
+import emailjs from 'emailjs-com';
 import '../App.css'
 import './ContactForm.css'
 import AOS from 'aos';
@@ -18,16 +19,16 @@ function ContactForm() {
     function sendEmail(e) {
       e.preventDefault();
   
-    //   emailjs.sendForm(
-    //       'lucyjpjones@gmail.com',
-    //       'lucy',
-    //       e.target,
-    //       'user_qZ2fQYOyvPucFHRyubh33')
-    //     .then((result) => {
-    //         console.log(result.text);
-    //     }, (error) => {
-    //         console.log(error.text);
-    //     });
+      emailjs.sendForm(
+          'michaeleglon@gmail.com',
+          'mike',
+          e.target,
+          'user_qZ2fQYOyvPucFHRyubh33')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
     }
   
     return (
