@@ -1,6 +1,5 @@
+![Contact](public/readme/responsive-mjbe-resume.png)
 <div align="center">
-  <img src="static/assets/images/readme/responsive-mjbe-resume.png">
-  <img src="static/assets/images/readme/title.png">
 <hr>
 
 **A custom site built for a client to present their current qualifications and experience to potential employers.**
@@ -19,7 +18,6 @@ This app was built using [VScode](https://code.visualstudio.com/) and deployed t
   - [Purpose](#purpose)
   - [Design](#design)
   - [User stories](#user-stories)
-  - [Wireframes](#wireframes)
 </details>
 
 **<details><summary> Features</summary>**
@@ -39,7 +37,11 @@ This app was built using [VScode](https://code.visualstudio.com/) and deployed t
 </details>
 
 **<details><summary> Testing</summary>**
-  - [Testing Documentation](https://github.com/Lucyjpjones/wean-cuisine/blob/master/testing.md)
+  - [Testing user stories](#testing-user-stories)
+  - [Validator checks](#validator-checks)
+  - [Responsive Design](#responsive-design)
+  - [Additional Testing](#additional-testing)
+  - [Bugs](#bugs)
 </details>
 
 **<details><summary> Credits</summary>**
@@ -55,10 +57,10 @@ This app was built using [VScode](https://code.visualstudio.com/) and deployed t
 
 # &rarr; **User Experience (UX)**
 
-### **<u>Purpose</u>**
+### **Purpose**
 
-This application was built for a client who is looking to create online resume to present their qualifications and experience.
-### **<u>Design</u>**
+This online resume was built for a client to present their current qualifications and experience to future employers.
+### **Design**
 
 **Structure**
 
@@ -67,15 +69,11 @@ This application was built for a client who is looking to create online resume t
 **Colour scheme**
 - A simple colour scheme to keep the design looking clean and elegant.
 - A pale background used throughout the site to avoid any visual obstacles and helping add visual emphasis to other important parts of the design. It is also easier on the eye than a classic white.
-- I created my final palette using [Coolors](https://coolors.co).
-
-<img src="static/assets/images/readme/palette.png">
 
 **Typography**
-- 'Roboto Mono' has been used as the main font used throughout the website with Monospace as the fallback font if for any reason the font isn't being imported into the site correctly. It is a classic typewriter typeface used frequently in programming, so it is both attractive and appropriate.
+- 'Roboto Mono' has been used as the main font throughout the website with Monospace as the fallback font if for any reason the font isn't being imported into the site correctly. It is a classic typewriter typeface used frequently in programming, so it is both attractive and appropriate.
 
-
-#### User stories
+### **User stories**
 
 The <u>key priorities</u> for my user are as follows:
 
@@ -88,7 +86,8 @@ The <u>key priorities</u> for my user are as follows:
 4. Ability to easily get in contact by email
 
 5. Access links to external social accounts
-                |
+
+---
 ## &rarr; **Features**
 
 ### **Features used**
@@ -125,19 +124,22 @@ The <u>key priorities</u> for my user are as follows:
 
 ## &rarr; **Technologies**
 
-#### Languages
+### **Languages**
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [JavaScript](https://www.javascript.com/)
 
-#### Frameworks, Libraries & Programs
+### **Frameworks, Libraries & Programs**
 
 - [**React**](https://reactjs.org/)
   - An open-source JavaScript library used for building the user interface.
 
-- [**React Bootstrap**](https://react-bootstrap.github.io/)
+- [**React MDBootstrap**](https://mdbootstrap.com/docs/react/)
   - Used to assist with the responsiveness and styling of the website using design components.
+
+- [**AOS**](https://michalsnik.github.io/aos/)
+    - Used for page scroll animations.
 
 - [**Google fonts**](https://fonts.google.com/)
   - Google fonts were used to import the fonts into the CSS file which is used on all pages throughout the project.
@@ -227,7 +229,8 @@ Now, you have a local copy of your fork of the mjbe-resume repository.
 
 ## &rarr; **Testing**
 
-#### Testing user stories
+### **Testing user stories**
+
  Testing my user's <u>key priorities</u>:
 
 1. **To be able to easily navigate throughout the site to find the desired content**
@@ -260,17 +263,18 @@ Now, you have a local copy of your fork of the mjbe-resume repository.
 
     ![Social Icons](public/readme/US5.png)
 
-#### Validator checks
 
-#### Responsive Design
+### **Validator checks**
+
+### **Responsive Design**
 
 - Viewport tag included in the head of HTML files to tell the browser how to respond to different resolutions, particularly mobile ones.
 
 - Media queries used in the CSS file to target larger devices.
 
-#### Additional Testing
+### **Additional Testing**
 
-#### Bugs
+### **Bugs**
 
 | | Bug                                                  | Action                                           |
 |-----------|------------------------------------------------------|--------------------------------------------------|
@@ -281,19 +285,29 @@ Now, you have a local copy of your fork of the mjbe-resume repository.
 ---
 ## &rarr; **Credits**
 
-#### Content
+### **Content**
+ - Code help for linking href to email account [here](https://css-tricks.com/snippets/html/mailto-links/)
 
+- Code help for scroll snapping [here](https://css-tricks.com/practical-css-scroll-snapping/)
+### **Media**
+- All written content was taken from my the hard copy of my clients resume
 
-#### Media
+- Images gallery photos were provided by client
 
+- Homepage image from [here](https://www.arsenal.com/tickets/arsenal/2017-Dec-28/crystal-palace)
 
-#### Acknowledgments
+- Qualifications Images 
+  - [Leeds Beckett logo](https://twitter.com/leedsbeckett)
+  - [Queen Mary logo](https://www.linkedin.com/school/st-mary%27s-university-twickenham/)
+  - [Acheivements logo](https://webstockreview.net/image/laurel-clipart-feather/1515610.html)
+
+### **Acknowledgments**
 
 ---
 
 ## &rarr; **Contact**
 
-#### Contact details
+### **Contact details**
 
 Created by @lucyjpjones
 
