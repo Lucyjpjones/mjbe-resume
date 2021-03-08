@@ -28,7 +28,7 @@ function QualificationSection() {
                             <MDBCardBody>
                                 <MDBCardTitle style={{fontSize:'1rem'}} >MSc Strength & Conditioning</MDBCardTitle>
                                 <MDBCardText>
-                                    <p style={{fontWeight:'600', color:'#394867', fontSize:'.9rem'}}>Distinction</p>
+                                    <p style={{fontWeight:'600', color:'#394867', fontSize:'1rem', marginBottom:10, marginTop:10}}>Distinction</p>
                                     <p style={{fontSize:'.8rem'}}>Dissertation: The influence of physical load and
                                     contextual variables on measures of post-match
                                     fatigue in elite-level soccer players</p>
@@ -42,7 +42,7 @@ function QualificationSection() {
                             <MDBCardBody>
                                 <MDBCardTitle style={{fontSize:'1rem'}} >BSc Sport and Exercise Science</MDBCardTitle>
                                 <MDBCardText>
-                                <p style={{fontWeight:'600', color:'#394867', fontSize:'.9rem'}}>First Class Honors</p>
+                                <p style={{fontWeight:'600', color:'#394867', fontSize:'1rem', marginBottom:10, marginTop:10}}>First Class Honors</p>
                                 <p style={{fontSize:'.8rem'}}>Dissertation: Investigating whether single and multijoint isometric strength assessments can be valid
                                 predictors of dynamic performance.</p>
                                 </MDBCardText>
