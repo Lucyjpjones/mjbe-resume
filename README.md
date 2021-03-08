@@ -162,71 +162,7 @@ The <u>key priorities</u> for my user are as follows:
 
 ## &rarr; **Deployment**
 
-#### Deploy to Github
-
-The project was deployed to GitHub Pages using the following steps...
-
-#### Accessing code
-
-
-  Follow the steps below if you are wanting to propose changes to the project or to use the project as a starting point for your own idea.
-
-
-- **Forking the GitHub Repository**
-
-  Forking allows you to create a copy of the original repository and propose changes to the repository owner via a pull request. 
-
-    1. Log in to GitHub and locate the GitHub Repository
-    
-    2. At the top of the Repository (not top of page) just above the "Settings" button on the menu, locate the "Fork" button.
-
-    ![forking](assets/images/readme/forking.png)
-    
-    3. You should now have a copy of the original repository in your GitHub account.
-
-- **Making a Local Clone**
-
-When you clone a repository, the repository is copied on to your local machine.
-
-  1. Log in to GitHub and locate the GitHub Repository.
-
-  2. Under the repository name, click the "download code" option.
-
-  ![Clone](assets/images/readme/clone.png)
-
-  3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-
-  ![Clone-link](assets/images/readme/clone-link.png)
-
-  4. Open Git Bash
-
-  5. Change the current working directory to the location where you want the cloned directory to be made.
-
-  6. Type git clone, and then paste the URL you copied in Step 3. 
-  ```
-  $ git clone https://github.com/YOUR-USERNAME/lj-online-resume.git
-  ```
-
-  7.	Press Enter. Your local clone will be created.
-    
-  ```
-  $ git clone https://github.com/YOUR-USERNAME/mjbe-resume.git
-
-  > Cloning into `mjbe-resume`...
-  > remote: Enumerating objects: 299, done.
-  > remote: Counting objects: 100%, (299/299),  done.
-  > remote: Compressing objects: 100% (156/156), done.
-  > Recieving objects: remove: Total 299 (delta 145), reused 267 (delta 126), pack-reused 0
-  > Recieving objects: 100% (299/299), 4.61MiB | 2.98 MiB/s, done.
-  > Resolving deltas: 100% (145/145), done. Unpacking objects: 100% (10/10), done.
-  ```
-
-Now, you have a local copy of your fork of the mjbe-resume repository.
-
-> Note: The repository name and output numbers that you see on your computer, representing the total file size, etc, may differ from the example I have provided above.
-
 ---
-
 ## &rarr; **Testing**
 
 ### **Testing user stories**
@@ -267,8 +203,6 @@ Now, you have a local copy of your fork of the mjbe-resume repository.
 ### **Validator checks**
 
 ### **Responsive Design**
-
-- Viewport tag included in the head of HTML files to tell the browser how to respond to different resolutions, particularly mobile ones.
 
 - Media queries used in the CSS file to target larger devices.
 
