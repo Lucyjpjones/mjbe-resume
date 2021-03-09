@@ -57,19 +57,19 @@ function QualificationSection() {
                                 <MDBCardText style={{fontSize:'.8rem'}}>
                                 <ul className='ul-experience' >
                                     <li>
-                                        <p style={{fontWeight: 'bold'}}>UKSCA <span style={{color:'#9ba4b4', fontSize: '80%'}}>3 out of 4 parts completed</span></p>
+                                        <p>UKSCA <span>3 out of 4 parts completed</span></p>
                                     </li>
                                     <li>
-                                        <p style={{fontWeight: 'bold'}}>ALTIS <span style={{color:'#9ba4b4', fontSize: '80%'}}> Completing the “Need for Speed” course</span></p>
+                                        <p>ALTIS <span> Completing the “Need for Speed” course</span></p>
                                     </li>
                                     <li>
-                                        <p style={{fontWeight: 'bold'}}>BRITISH WEIGHTLIFTING <span style={{color:'#9ba4b4', fontSize: '80%'}}> Level 1 Assistant Weightlifting Coach certification</span></p>    
+                                        <p>BRITISH WEIGHTLIFTING <span> Level 1 Assistant Weightlifting Coach certification</span></p>    
                                     </li>
                                     <li>
-                                        <p style={{fontWeight: 'bold'}}>PERSONAL TRAINING <span style={{color:'#9ba4b4', fontSize: '80%'}}> Active IQ Level 3 Diploma in Fitness, Instructing and Personal Training</span></p>   
+                                        <p>PERSONAL TRAINING <span> Active IQ Level 3 Diploma in Fitness, Instructing and Personal Training</span></p>   
                                     </li>
                                     <li>
-                                        <p style={{fontWeight: 'bold'}}>FA <span style={{color:'#9ba4b4', fontSize: '80%'}}> Futsal Level 1, FA Coaching Level 1, First Aid, Safeguarding Children</span></p>
+                                        <p>FA <span> Futsal Level 1, FA Coaching Level 1, First Aid, Safeguarding Children</span></p>
                                     </li>
                                 </ul>
                                 </MDBCardText>
@@ -101,19 +101,19 @@ function QualificationSection() {
                                 <MDBCardText style={{fontSize:'.8rem'}}>
                                 <ul className='ul-experience' >
                                     <li>
-                                        <p style={{fontWeight: 'bold'}}>UKSCA <span style={{color:'#9ba4b4', fontSize: '80%'}}>3 out of 4 parts completed</span></p>
+                                        <p>UKSCA <span>3 out of 4 parts completed</span></p>
                                     </li>
                                     <li>
-                                        <p style={{fontWeight: 'bold'}}>ALTIS <span style={{color:'#9ba4b4', fontSize: '80%'}}> Completing the “Need for Speed” course</span></p>
+                                        <p>ALTIS <span> Completing the “Need for Speed” course</span></p>
                                     </li>
                                     <li>
-                                        <p style={{fontWeight: 'bold'}}>BRITISH WEIGHTLIFTING <span style={{color:'#9ba4b4', fontSize: '80%'}}> Level 1 Assistant Weightlifting Coach certification</span></p>    
+                                        <p>BRITISH WEIGHTLIFTING <span> Level 1 Assistant Weightlifting Coach certification</span></p>    
                                     </li>
                                     <li>
-                                        <p style={{fontWeight: 'bold'}}>PERSONAL TRAINING <span style={{color:'#9ba4b4', fontSize: '80%'}}> Active IQ Level 3 Diploma in Fitness, Instructing and Personal Training</span></p>   
+                                        <p>PERSONAL TRAINING <span> Active IQ Level 3 Diploma in Fitness, Instructing and Personal Training</span></p>   
                                     </li>
                                     <li>
-                                        <p style={{fontWeight: 'bold'}}>FA <span style={{color:'#9ba4b4', fontSize: '80%'}}> Futsal Level 1, FA Coaching Level 1, First Aid, Safeguarding Children</span></p>
+                                        <p>FA <span> Futsal Level 1, FA Coaching Level 1, First Aid, Safeguarding Children</span></p>
                                     </li>
                                 </ul>
                                 </MDBCardText>

@@ -1,82 +1,82 @@
 .navbar {
-    background: transparent;
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-    top: 0;
-    z-index: 999;
-    padding: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  top: 0;
+  z-index: 999;
+  padding: 0;
+}
+  
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 85vh;
+  justify-content: space-between;
+  position: absolute;
+  top: 15vh;
+  left: -100%;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.nav-menu.active {
+  background-color: rgba(1, 7, 53, 1);
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+
+.nav-links {
+  color: #fafafa;
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  display: table;
+}
+
+.nav-links:hover {
+  background-color: #fafafa;
+  color: rgba(1, 7, 53, 1);
+  border-radius: 0;
+  text-decoration: none;
+}
+
+.menu-icon {
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.overlay {
+  background-color: rgba(1, 7, 53, 1) !important ;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-menu {
+    justify-content: initial;
   }
   
-  .navbar-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1500px;
-  }
-
-  .nav-menu {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 85vh;
-    justify-content: space-between;
-    position: absolute;
-    top: 15vh;
-    left: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
-  }
-
-  .nav-menu.active {
-    background-color: rgba(1, 7, 53, 1);
-    left: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
-  }
-
   .nav-links {
-    color: #fafafa;
-    text-align: center;
-    padding: 2rem;
-    width: 100%;
-    display: table;
+    padding: 0;
+    font-size: 1.5rem;
   }
-
   .nav-links:hover {
-    background-color: #fafafa;
-    color: rgba(1, 7, 53, 1);
-    border-radius: 0;
-    text-decoration: none;
+    background-color: transparent;
+    color: #9ba4b4;
   }
-
-  .menu-icon {
-    display: block;
-    position: absolute;
-    top: 5%;
-    right: 50%;
-    transform: translate(50%, 50%);
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
-
-  .overlay {
-    background-color: rgba(1, 7, 53, 1) !important ;
-    height: 100vh;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .nav-menu {
-      justify-content: initial;
-    }
-    
-    .nav-links {
-      padding: 0;
-      font-size: 1.5rem;
-    }
-    .nav-links:hover {
-      background-color: transparent;
-      color: #9ba4b4;
-    }
-  }
+}
