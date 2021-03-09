@@ -9,7 +9,7 @@ function ExperienceSection() {
         <MDBContainer>
             <h3 className='underline--text'>Experience</h3>
             <MDBRow>
-                <div id='work'>
+                <div className='history'>
                     <div class="timeline-item" data-dates="10/2018 - Present">
                         <h4>Crystal Palace Football Club</h4>
                         <p>First Team Rehabilitation Coach</p>
