@@ -42,9 +42,9 @@ function QualificationSection() {
                             <MDBCardBody>
                                 <MDBCardTitle style={{fontSize:'1rem'}} >BSc Sport and Exercise Science</MDBCardTitle>
                                 <MDBCardText>
-                                <p className='grade'>First Class Honors</p>
-                                <p style={{fontSize:'.8rem'}}>Dissertation: Investigating whether single and multijoint isometric strength assessments can be valid
-                                predictors of dynamic performance.</p>
+                                    <p className='grade'>First Class Honors</p>
+                                    <p style={{fontSize:'.8rem'}}>Dissertation: Investigating whether single and multijoint isometric strength assessments can be valid
+                                    predictors of dynamic performance.</p>
                                 </MDBCardText>
                             </MDBCardBody>
                             </MDBCard>
@@ -84,7 +84,7 @@ function QualificationSection() {
                             <MDBCardBody>
                                 <MDBCardTitle style={{fontSize:'1rem'}} >BSc Sport and Exercise Science</MDBCardTitle>
                                 <MDBCardText>
-                                <p style={{fontWeight:'600', color:'#394867', fontSize:'.9rem'}}>First Class Honors</p>
+                                <p className='grade'>First Class Honors</p>
                                 <p style={{fontSize:'.8rem'}}>Dissertation: Investigating whether single and multijoint isometric strength assessments can be valid
                                 predictors of dynamic performance.</p>
                                 </MDBCardText>

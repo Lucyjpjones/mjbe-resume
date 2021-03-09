@@ -20,7 +20,7 @@ function ContactForm() {
       e.preventDefault();
   
       emailjs.sendForm(
-          'michaeleglon@gmail.com',
+          'michaeleglon@hotmail.com',
           'mike',
           e.target,
           'user_qZ2fQYOyvPucFHRyubh33')

@@ -32,7 +32,7 @@
     font-weight: 600;
     color: #394867; 
     font-size: 1rem;
-    margin: 10px 0;
+    margin: 10px 0 !important;
 }
 
 .carousel-indicators > li {
