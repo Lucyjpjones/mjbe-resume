@@ -30,7 +30,6 @@ h1, .typing-text {
 
 /* CV Button */
 .btn-cv {
-    padding: 6px 14px;
     border-radius: 2px;
     outline: none;
     border: none;
@@ -42,6 +41,13 @@ h1, .typing-text {
     border-radius: 0px;
     text-decoration: none;
     margin-top: 5%;
+    height: 60px;
+    width: 140px;
+    text-align: center;
+  }
+
+  .btn-cv div {
+    padding: 6px 14px;
   }
   
   .btn-cv:hover {
@@ -51,7 +57,7 @@ h1, .typing-text {
   }
 
   /* Arrow */
-  .arrow i {
+  .arrow-icon {
     margin-top: 50px;
     color: #fafafa;
   }
@@ -84,6 +90,10 @@ h1, .typing-text {
       font-size: 28px; 
     }
     .btn-cv {
-      font-size: 1.8rem;
+      height: 52px;
+      width: 130px;
+    }
+    .btn-cv div {
+      font-size: 1.5rem;
     }
 }
