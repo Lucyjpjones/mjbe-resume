@@ -4,6 +4,8 @@ import emailjs from 'emailjs-com';
 import '../App.css'
 import './ContactForm.css'
 import AOS from 'aos';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
 function ContactForm() {
 
@@ -15,6 +17,8 @@ function ContactForm() {
     const [email, setEmail] = useState("")
     const [subject, setSubject] = useState("")
     const [message, setMessage] = useState("")
+
+    const MySwal = withReactContent(Swal)
 
     function sendEmail(e) {
       e.preventDefault();
@@ -30,8 +34,21 @@ function ContactForm() {
             setEmail("");
             setSubject("");
             setMessage("");
+            MySwal.fire({
+                title: 'Message sent!',
+                icon: 'success',
+                showConfirmButton: false,
+                timer: 2000
+              })
         }, (error) => {
             console.log(error.text);
+            MySwal.fire({
+                title: 'Message sending failed!',
+                text: 'Please try again',
+                icon: 'error',
+                showConfirmButton: false,
+                timer: 2000
+              })
         });
     }
   
