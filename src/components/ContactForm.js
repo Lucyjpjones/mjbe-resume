@@ -20,12 +20,16 @@ function ContactForm() {
       e.preventDefault();
   
       emailjs.sendForm(
-          'michaeleglon@hotmail.com',
-          'mike',
+          'mjbe_resume',
+          'resume_template',
           e.target,
-          'user_qZ2fQYOyvPucFHRyubh33')
+          'user_hOKGMmw6fCZlGr94jefqx')
         .then((result) => {
             console.log(result.text);
+            setFullName("");
+            setEmail("");
+            setSubject("");
+            setMessage("");
         }, (error) => {
             console.log(error.text);
         });
